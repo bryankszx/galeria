@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.contaiter{
+    display: flex;
+   flex-wrap: wrap;
+}
+
+.contaiter div{
+    height:  00px;
+}
+
+.contaiter img{
+    height: 100%;
+    width: 200%;
+    filter: grayscale(1);
+
+}
+.contaiter img:hover{
+    filter: grayscale(0s);
+    transform: scale(1.5);
+}
